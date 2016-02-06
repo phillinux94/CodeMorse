@@ -33,6 +33,7 @@ void loop() {
   conversion(received);
 }
 
+
 void conversion(int lettre) {
   // Lettres
   switch(lettre) {
