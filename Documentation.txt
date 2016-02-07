@@ -1,5 +1,7 @@
-Clavier code morse pour Arduino
+Logiciel permettant la génération de code morse
 
-Communique avec le port 2 de l'arduino
+Clavier_Morse --> programme en C destiné à l'Arduino
+CodeMorse.py  --> programme en Python 3 permettant la saisie du texte à convertir ainsi qu'à l'envoyer à l'Arduino par le port Série
 
-Traite les lettres et les chiffres
+
+Paris, le 7/02/2016
