@@ -1,7 +1,7 @@
 Logiciel permettant la génération de code morse
 
-Clavier_Morse --> programme en C destiné à l'Arduino
-CodeMorse.py  --> programme en Python 3 permettant la saisie du texte à convertir ainsi qu'à l'envoyer à l'Arduino par le port Série
+Clavier_Morse.ino --> programme en C destiné à l'Arduino
+CodeMorse.py      --> programme en Python 3 permettant la saisie du texte à convertir ainsi qu'à l'envoyer à l'Arduino par le port Série
 
 
 Paris, le 7/02/2016
