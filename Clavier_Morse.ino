@@ -7,6 +7,7 @@ const int dureePoint = 100;
 const int dureeTrait = dureePoint * 3;
 const int dureeIntra = dureePoint;
 const int dureeInter = dureePoint * 3;
+char received;
 
 // Variable stockant l'état de la LED
 int ledState = LOW;
@@ -19,21 +20,18 @@ void setup() {
 }
 
 // Boucle de lecture des lettres du clavier
-void loop() {
-  // Variable recevant la lettre du clavier
-  int received;  
+void loop() {    
 
   // Réception de la frappe du clavier
   received = Serial.read();
-
-  // Mise en minuscule
-  received = toLowerCase(received);
   
   // Appel de la fonction convertissant la lettre en morse
   conversion(received);
+  
+  Serial.flush();
 }
 
-void conversion(int lettre) {
+void conversion(char lettre) {
   // Lettres
   switch(lettre) {
     case 'a':
